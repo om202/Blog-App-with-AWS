@@ -1,10 +1,11 @@
-import TestApi from "./testApi";
+"use client";
+
+import { Navbar } from "./components/navbar";
 
 export default function Home() {
-
   return (
     <>
-      <TestApi />
+      <Navbar />
     </>
   );
 }

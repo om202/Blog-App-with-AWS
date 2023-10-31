@@ -9,12 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@aws-amplify/ui-react": "^1.2.26",
+    "aws-amplify": "^4.3.46",
+    "next": "14.0.0",
     "react": "^18",
-    "react-dom": "^18",
-    "next": "14.0.0"
+    "react-dom": "^18"
   },
   "devDependencies": {
-    "autoprefixer": "^10",
+    "autoprefixer": "^10.4.16",
     "postcss": "^8",
     "tailwindcss": "^3"
   }

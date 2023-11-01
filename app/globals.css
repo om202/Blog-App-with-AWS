@@ -6,6 +6,9 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  --amplify-primary-color: #1E88E5; /* A bright, modern blue */
+  --amplify-primary-tint: #42A5F5; /* A slightly lighter shade of the primary color */
+  --amplify-primary-shade: #64B5F6; /* A much lighter shade of the primary color */
 }
 
 @media (prefers-color-scheme: dark) {

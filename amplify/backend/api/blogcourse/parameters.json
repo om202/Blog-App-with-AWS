@@ -1,5 +1,12 @@
 {
   "AppSyncApiName": "blogcourse",
   "DynamoDBBillingMode": "PAY_PER_REQUEST",
-  "DynamoDBEnableServerSideEncryption": false
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthModeLastUpdated": "2023-11-01T04:19:16.830Z",
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authblogcoursec1c471a9",
+      "Outputs.UserPoolId"
+    ]
+  }
 }
